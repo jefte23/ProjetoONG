@@ -1,14 +1,14 @@
 
-public class Unidade {
+public class Posto {
 
-	private String unidades;
+	private String postos;
 	private String local;
 	private int capacidade;
 	private String tipoAlimento; // P - padrão | R - restrição
 
-	public Unidade(String unidade, String local, int capacidade, String tipoAlimento) {
+	public Posto(String unidade, String local, int capacidade, String tipoAlimento) {
 		super();
-		this.unidades = unidade;
+		this.postos = unidade;
 		this.local = local;
 		this.capacidade = capacidade;
 		this.tipoAlimento = tipoAlimento;
@@ -16,16 +16,16 @@ public class Unidade {
 
 	@Override
 	public String toString() {
-		return " - Unidade :" + unidades + "\n - local=" + local + "\n - capacidade=" + capacidade
-				+ "\n - tipoAlimento=" + tipoAlimento;
+		return " - Unidade :" + postos + "\n - local=" + local + "\n - capacidade=" + capacidade + "\n - tipoAlimento="
+				+ tipoAlimento;
 	}
 
 	public String getUnidade() {
-		return unidades;
+		return postos;
 	}
 
 	public void setUnidade(String unidade) {
-		this.unidades = unidade;
+		this.postos = unidade;
 	}
 
 	public int getCapacidade() {
@@ -37,11 +37,11 @@ public class Unidade {
 	}
 
 	public String getNome() {
-		return unidades;
+		return postos;
 	}
 
 	public void setNome(String nome) {
-		this.unidades = nome;
+		this.postos = nome;
 	}
 
 	public String getLocal() {

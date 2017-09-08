@@ -5,9 +5,9 @@ public class ONG {
 	private String administrador;
 	private String estado;
 	private int anoFuncacao;
-	ArrayList<Unidade> unidades;
+	ArrayList<Posto> unidades;
 
-	public ONG(String nome, String administrador, String estado, int anoFuncacao, ArrayList<Unidade> unidades) {
+	public ONG(String nome, String administrador, String estado, int anoFuncacao, ArrayList<Posto> unidades) {
 		super();
 		this.nome = nome;
 		this.administrador = administrador;
@@ -48,11 +48,11 @@ public class ONG {
 		this.anoFuncacao = anoFuncacao;
 	}
 
-	public ArrayList<Unidade> getUnidades() {
+	public ArrayList<Posto> getUnidades() {
 		return unidades;
 	}
 
-	public void setUnidades(ArrayList<Unidade> unidades) {
+	public void setUnidades(ArrayList<Posto> unidades) {
 		this.unidades = unidades;
 	}
 
