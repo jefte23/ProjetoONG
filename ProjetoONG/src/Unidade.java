@@ -3,10 +3,10 @@ public class Unidade {
 
 	private String unidades;
 	private String local;
-	private String capacidade;
+	private int capacidade;
 	private String tipoAlimento; // P - padrão | R - restrição
 
-	public Unidade(String unidade, String local, String capacidade, String tipoAlimento) {
+	public Unidade(String unidade, String local, int capacidade, String tipoAlimento) {
 		super();
 		this.unidades = unidade;
 		this.local = local;
@@ -28,11 +28,11 @@ public class Unidade {
 		this.unidades = unidade;
 	}
 
-	public String getCapacidade() {
+	public int getCapacidade() {
 		return capacidade;
 	}
 
-	public void setCapacidade(String capacidade) {
+	public void setCapacidade(int capacidade) {
 		this.capacidade = capacidade;
 	}
 
